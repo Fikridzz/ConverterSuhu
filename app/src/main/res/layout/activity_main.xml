@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/backround">
+    
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperatur Converter \n By Fikri Dzakwan"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/enterTemp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Masukan Temperatur"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:backgroundTint="#c9c7c7"
+        android:textColorHint="#c9c7c7"
+        android:textAllCaps="false"
+        android:textColor="#c9c7c7"
+        android:layout_marginTop="20dp"/>
+    
+    <Button
+        android:id="@+id/cToF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celcius Ke Fahrenheit"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/fToC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit Ke Celcius"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Degress"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#c9c7c7"/>
+
+</LinearLayout>
